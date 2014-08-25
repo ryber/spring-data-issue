@@ -39,8 +39,8 @@ public class MyMongoFactory implements MongoDbFactory {
         return null;
     }
 
-    @Override
-    public PersistenceExceptionTranslator getExceptionTranslator() {
-        return new MongoExceptionTranslator();
-    }
+//    @Override
+//    public PersistenceExceptionTranslator getExceptionTranslator() {
+//        return new MongoExceptionTranslator();
+//    }
 }
